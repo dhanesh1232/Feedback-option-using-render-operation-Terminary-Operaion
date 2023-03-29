@@ -1,0 +1,40 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-rating {
+  height: 100%;
+  width: 40%;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 5px;
+}
+.heading {
+  font-size: 28px;
+}
+.emojis {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  height: 100px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+li:hover {
+  cursor: pointer;
+}
+.love {
+  height: 85px;
+}
